@@ -1,0 +1,39 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  padding: 20px;
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 30px;
+  font-weight: 800;
+  background-color: lightseagreen;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  transition: all .5s;
+}
+
+button:hover {
+    background-color: orangered;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+}
